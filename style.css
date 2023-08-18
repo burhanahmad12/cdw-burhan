@@ -1,0 +1,421 @@
+@charset "utf-8";
+
+/* CSS Document */
+@media only screen and (min-width: 700px) {
+}
+html, body{
+    height: 95%;
+    width: 100%;
+
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    border-bottom: 2px solid #dadada;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vw 0vw;
+    background-color: aqua;
+    
+    
+
+}
+.nav-part2{
+display: flex;
+gap: 1.7vw;
+align-items: center;
+}
+.nav h2{
+    font-size: 1.8vw;
+    font-weight: 700;
+}
+.nav h4{
+    font-size: 17px;
+    font-family: aeonik;
+
+    font-weight: 800;
+    color: black;
+    
+    
+}
+.nav button{
+    font-size: 1vw;
+    padding: 0.7vw 1.4vw;
+    background-color: lightseagreen;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+
+}
+.nav i{
+    font-size: 1.6vw;
+    display: none;
+    font-weight: 800;
+}
+.content{
+    height: calc(100% - 100px);
+    width: 100%;
+    display: flex;
+    position: relative;
+
+}
+.right{
+    height: 100%;
+    width: 50%;
+    padding: 0vw 0vw;
+}
+.left{
+    height: 100%;
+    width: 50%;
+    padding: 0vw 0vw;
+}
+.left h1{
+    font-size: 3.0vw;
+    color: black;
+    font-weight: 800;
+    font-style: aeonik;
+}
+.left h1 span{
+    color: lightseagreen;
+    font-weight: 800;
+    font-style: aeonik;
+}
+.left p{
+    font-size: 1.3vw;
+    font-weight: 600;
+    color: #B39175;
+    width: 80%;
+    height: 0%;
+    margin-top: 3vw;
+    margin-bottom: 4vw;
+    border: none;
+ 
+
+}
+#class h3{
+    color: #000;
+}
+#class p4{
+    font-size: 1.3vw;
+    font-weight: 600;
+    color: #B39175;
+    width: 80%;
+    height: 0%;
+    margin-top: 3vw;
+    margin-bottom: 4vw;
+    border: none;
+    
+}
+.tailwind{
+    padding: 52vw 0vw;
+}
+
+
+ul li h1{
+    color: #000;
+}
+ul li{
+    font-size: 2.5vw;
+    color: #B39175;
+}
+.content button{
+    font-size: 2.5vw;
+    padding: 1vw 3vw;
+    background-color: lightseagreen;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.left h{
+    font-size: 3vw;
+    font-weight: 700;
+    font-family: 'Arial Bold';
+    color: #000;
+
+}
+
+.content span{
+    font-size: 3vw;
+    font-family: 'arial bold';
+    font-weight: 900;
+    color: lightseagreen;
+
+}
+
+.left p7{
+    color: #B39175;
+    font-family: sans-serif;
+    font-style: aeonik;
+    font-size: 1.3vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.left hr{
+    margin-top: 3vw;
+    margin-bottom: 4vw;
+}
+.left img{
+    height: 300px;
+    width: 300px;
+    
+}
+.left h5{
+    font-size: 3.0vw;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.left h6{
+    font-size: 2.5vw;
+    color: black;
+    padding: 1% 0vw;
+    height: -5vw;
+    border: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+
+.left h6 span{
+    color: lightseagreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+.left p2{
+    font-size: 1.3vw;
+    font-weight: 600;
+    color: #B39175;
+    width: 80%;
+    height: 0%;
+    margin-top: 3vw;
+    margin-bottom: 4vw;
+   
+
+}
+.left p3{
+    font-size: 1.3vw;
+    font-weight: 600;
+    color: #B39175;
+    width: 80%;
+    height: 0%;
+    margin-top: 3vw;
+    margin-bottom: 4vw;
+}
+.left h3 span{
+    font-size: 2.5vw;
+}
+.left h3{
+    font-size: 2.5vw;
+}
+.left h3 span{
+    color: lightseagreen;
+}
+.left h5 span{
+    color: lightseagreen;
+}
+.left h6{
+    font-size: 3.0vw;
+}
+.left h2{
+    font-size: 2.5vw;
+    color: black;
+}
+.left h2 span{
+    color: lightseagreen;
+    
+}
+.right h1{
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+
+
+
+
+
+.right{
+    height: 100%;
+    width: 50%;
+}
+.right img{
+    height: 100%;
+    width: 100%;
+    padding: 1% 0vw;
+    border:none;
+    border-radius: 5px;
+    display: flex;
+    direction: coloum;
+    display: flex,wrap;
+}
+
+
+
+
+
+@media (max-width:550px){
+
+    .nav{
+        background-color: lightseagreen;
+        color: white;
+        padding: 0 6px;
+        height: 60px;
+        width: 412px;
+    }
+    html, body{
+        height: 90%;
+        width: 100%;
+    }
+    .content{
+        height: calc(100% - 100px);
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+    .left p7{
+        color: #B39175;
+        font-family: sans-serif;
+        font-style: aeonik;
+        font-size: 2vw;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        align-items: center;
+        justify-content: center;
+    }
+    .left p{
+       padding: 10vw 0vw;
+        font-size: 2.8vw;
+        font-weight: 600;
+        color: #B39175;
+        width: 80%;
+        height: 0%;
+        margin-top: 3vw;
+        margin-bottom: 4vw;
+        border: none;
+    }
+    .left h1 span{
+        color: lightseagreen;
+    font-weight: 800;
+    font-style: aeonik;
+
+    }
+    .right{
+        display: none;
+        
+    }
+    .left h1{
+        font-size: 3.0vw;
+    color: black;
+    font-weight: 800;
+    font-style: aeonik;
+    }
+    .left span{
+        font-size: 5vw;
+        
+
+    }
+    .tailwind{
+        padding: 100vw 0vw;
+    }
+    .left h{
+        font-size: 5vw;
+        font-weight: 700;
+        font-family: 'Arial Bold';
+        color: #000;
+        
+    }
+    .left img{
+        padding: 15vw 1vw;
+        align-items: center;
+        justify-content: center;
+       
+    }
+  
+    
+    .left{
+        height: 100%;
+        width: 50%;
+        padding: 0vw 0vw;
+    }
+.nav-part2 button{
+    font-size: 3vw;
+    border-radius: 100px;
+    border: 5px solid ;
+    background-color: lightseagreen;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+.nav h2{
+    font-size: 6vw;
+
+}
+.left li p2{
+    font-size: 2vw;
+    font-weight: 600;
+    color: #B39175;
+    width: 80%;
+    height: 0%;
+    margin-top: 3vw;
+    margin-bottom: 4vw;
+}
+.left h3 span{
+    font-size: 4vw;
+}
+.left h3{
+    font-size: 4vw;
+}
+.left h5{
+    font-size: 6vw;
+}
+.nav h4{
+    font-size: 4vw;
+    display: none;
+}
+.left p2{
+    font-size: 6vw;
+    
+
+}
+.right h1{
+ display: none;
+
+}
+.right{
+    display: none;
+}
+
+.right p{
+    display: none;
+}
+.right img{
+    padding: 20vw 0vw;
+    direction: coloum;
+    display: none;
+    font-size: 6vw;
+    
+}
+.left p3{
+    font-size: 1.3vw;
+    display: flex;
+}
+
+.nav i{
+    display: block;
+    font-size: 6vw;
+}
+}
